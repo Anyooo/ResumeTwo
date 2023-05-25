@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ResumeTwo/static/css/main.6d065e12.css",
+    "main.js": "/ResumeTwo/static/js/main.8123f458.js",
+    "static/media/resume.png": "/ResumeTwo/static/media/resume.82ed873a4488a2d7568a.png",
+    "static/media/background.jpg": "/ResumeTwo/static/media/background.d547f5c5101ab3c98aa4.jpg",
+    "static/media/cloud1.png": "/ResumeTwo/static/media/cloud1.8753440457afd3d57b85.png",
+    "static/media/cloud2.png": "/ResumeTwo/static/media/cloud2.fc3386210d5651a7371e.png",
+    "static/media/pieces.png": "/ResumeTwo/static/media/pieces.506e87185390de0e6ec5.png",
+    "static/media/body.png": "/ResumeTwo/static/media/body.ea817a065c2f0e721c27.png",
+    "static/media/wing.png": "/ResumeTwo/static/media/wing.9d751745e2ef92e80871.png",
+    "static/media/bunnder.png": "/ResumeTwo/static/media/bunnder.29add0d0701d10cfa7b3.png",
+    "static/media/clothes.png": "/ResumeTwo/static/media/clothes.6b4ad14fa0c5857f8eb2.png",
+    "static/media/grass1.png": "/ResumeTwo/static/media/grass1.ab20f1ca836fd6001a34.png",
+    "static/media/grass2.png": "/ResumeTwo/static/media/grass2.1db98c5d0d4e04018cc1.png",
+    "index.html": "/ResumeTwo/index.html",
+    "main.6d065e12.css.map": "/ResumeTwo/static/css/main.6d065e12.css.map",
+    "main.8123f458.js.map": "/ResumeTwo/static/js/main.8123f458.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d065e12.css",
+    "static/js/main.8123f458.js"
+  ]
+}
