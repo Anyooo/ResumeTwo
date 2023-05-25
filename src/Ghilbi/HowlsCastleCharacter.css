@@ -1,0 +1,308 @@
+body {
+  overflow-x: hidden;
+}
+.castle-container {
+
+  position: absolute;
+  top: 70vh;
+  right: -60%;
+  z-index: 0;
+  width: 733px;
+  height: 824px;
+
+
+}
+.castle-container div {
+  position: absolute;
+
+}
+.castle {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.castle .top {
+  top: 58px;
+  left: 44px;
+  width: 596px;
+  height: 420px;
+
+}
+.castle .top .top-top {
+  top: 0;
+  left: 0;
+  width: 596px;
+  height: 420px;
+  background: url('pieces.png') ;
+  background-size:865px 713px;
+  background-position: 0 0;
+}
+.castle .top .top-tower {
+  top: -58px;
+  left: 102px;
+  width: 131px;
+  height: 172px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size:865px 713px;
+  background-position: -596px 0;
+}
+
+.castle .top .top-clothes {
+  top: 36px;
+  left: 500px;
+  width: 130px;
+  height: 323px;
+  background: url('clothes.png') no-repeat 0 0;
+  background-size: 390px 323px;
+  animation: clothes 0.25s steps(3) infinite;
+}
+
+@keyframes clothes {
+  to {
+      background-position: -390px 0;
+ }
+}
+
+.castle .bucket {
+  top: 499px;
+  left: 580px;
+  width: 15px;
+  height: 54px;
+  background-image: url('bucket.png');
+}
+
+.castle .mouth .back-lip {
+  top: 550px;
+  left: 71px;
+  height: 150px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 856px 713px;
+  background-position: 0 -563px;
+}
+
+.castle .mouth .front-lip {
+  top: 551px;
+  left: 72px;
+  width: 150px;
+  height: 150px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -150px -563px
+}
+
+.castle .l-leg {
+  top: 714px;
+  left: 409px;
+  width: 132px;
+  height: 110px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -727px -140px;
+}
+
+.castle .r-leg {
+  top: 714px;
+  left: 409px;
+  width: 132px;
+  height: 110px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -727px -140px;
+}
+
+.castle .l-arm {
+  top: 697px;
+  left: 191px;
+  width: 146px;
+  height: 104px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -388px -420px;
+}
+
+.castle .body {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('body.png') no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.castle .fans {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.castle .fans .fan2 {
+  width: 100%;
+  height: 100%;
+  background: url('fan-2.png') ;
+  background-size: 2199px 824px;
+  animation: fan1 0.3s steps(3) infinite;
+}
+
+.castle .fans .fan1 {
+  width: 100%;
+  height: 100%;
+  background: url('fan-1.png') ;
+  background-size: 2199px 824px;
+  animation: fan1 0.4s steps(3) infinite;
+}
+@keyframes fan1 {
+  to {
+      background-position: -2199px 0;
+ }
+}
+@keyframes fan2 {
+to {
+    background-position: -2149px 0;
+}
+}
+.castle .fans .fix-tail {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('fixed-tails.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.castle .r-arm-holder {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.castle .r-arm-holder .r-arm {
+  top: 643px;
+  left: 254px;
+  width: 177px;
+  height: 143px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: 0 -420px;
+}
+
+.castle .r-arm-holder .fix-shoulder {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('fixed-shoulder.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.castle .ear {
+  top: 523px;
+  left: 205px;
+  width: 70px;
+  height: 53px;
+  background: url('ear.png') 0 0;
+}
+
+.castle .lower-foliage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.castle .lower-foliage .foliage2 {
+  top: 360px;
+  left: 244px;
+  width: 121px;
+  height: 99px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -727px -250px;
+}
+
+.castle .lower-foliage .foliage1 {
+top: 417px;
+left: 307px;
+width: 110px;
+height: 62px;
+background: url('pieces.png') 0 0 no-repeat;
+background-size: 865px 713px;
+background-position: -727px -349px;
+}
+
+.castle .lower-foliage .fix-balcony {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('fixed-balcony.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.castle .wing {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('wing.png') no-repeat 0 0;
+  background-size: 4398px 824px;
+  animation: wing 0.4s steps(6) infinite alternate;
+}
+
+@keyframes wing {
+  to {
+      background-position: -4398px 0;
+ }
+}
+.castle .higher-foliage .foliage3 {
+  top: 183px;
+  left: 290px;
+  width: 138px;
+  height: 140px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -727px 0;
+}
+.castle .higher-foliage .foliage2 {
+  top: 239px;
+  left: 357px;
+  width: 211px;
+  height: 119px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -177px -420px;
+}
+.castle .higher-foliage .foliage1 {
+  top: 320px;
+  left: 438px;
+  width: 89px;
+  height: 62px;
+  background: url('pieces.png') 0 0 no-repeat;
+  background-size: 865px 713px;
+  background-position: -727px -411px;
+}
+.castle .higher-foliage .fix-roof {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('fixed-roof.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.castle .flag {
+  top: 323px;
+  left: 429px;
+  width: 53px;
+  height: 30px;
+  background: url('flag.png') 0 0;
+  animation: flag 0.2s steps(2) infinite;
+}
+@keyframes flag {
+  to {
+      background-position: -106px 0;
+ }
+ }

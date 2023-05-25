@@ -1,0 +1,16 @@
+.section.contact {
+    width: 100%;
+    min-height: 1vh;  /* take up the full width of its parent container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+     /* add padding around the text to prevent it from sticking to the edges */
+}
+
+.section.contact ul {
+    list-style: none;  /* removes default bullet points */
+    padding: 10;  /* removes default padding */
+    margin: 0;  /* removes default margin */
+}

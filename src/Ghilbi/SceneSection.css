@@ -1,0 +1,30 @@
+.scene {
+    min-height: 200vh;
+    background: linear-gradent(to right, lightblue, darkblue);
+  }
+
+
+
+@media screen and (max-width: 1024px) {
+    .static-container{
+    margin: 0 4rem 0 calc(4rem + 1px);
+    }
+  }
+
+@media screen and (max-width: 568px) {
+    .static-container{
+    margin: 0 2rem 0 calc(2rem + 1px);
+    }
+  }
+
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    perspective: 900px;
+    perspective-origin: 50% 50vh;
+  }

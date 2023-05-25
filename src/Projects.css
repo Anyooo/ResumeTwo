@@ -1,0 +1,31 @@
+/* Projects.css */
+
+.projects {
+    padding: 20px 0;
+    background: #f9f9f9;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .section-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+  }
